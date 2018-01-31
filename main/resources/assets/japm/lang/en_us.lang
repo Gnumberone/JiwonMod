@@ -1,0 +1,15 @@
+itemGroup.tutorialtab=Tutorial Tab
+
+item.ticket.name=ticket
+
+item.axe_weather.name=Weather Axe
+item.hoe_weather.name=Weather Hoe
+item.pickaxe_weather.name=Weather Pickaxe
+item.shovel_weather.name=Weather Shovel
+item.sword_weather.name=Weather Sword
+
+item.helmet_weather.name=Weather Helmet
+item.chestplate_weather.name=Weather Chestplate
+item.leggings_weather.name=Weather Leggings
+item.boots_weather.name=Weather Boots
+
