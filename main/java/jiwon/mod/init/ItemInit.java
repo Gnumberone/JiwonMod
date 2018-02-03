@@ -5,7 +5,6 @@ import java.util.List;
 
 import jiwon.mod.objects.armour.ArmourBase;
 import jiwon.mod.objects.items.ItemBase;
-import jiwon.mod.objects.items.ItemHurricane;
 import jiwon.mod.objects.tools.ToolPickaxe;
 import jiwon.mod.objects.tools.ToolAxe;
 import jiwon.mod.objects.tools.ToolHoe;
@@ -43,7 +42,5 @@ public class ItemInit {
 	public static final Item LEGGINGS_WEATHER = new ArmourBase("leggings_weather", ARMOUR_WEATHER, 2, EntityEquipmentSlot.LEGS);
 	public static final Item BOOTS_WEATHER = new ArmourBase("boots_weather", ARMOUR_WEATHER, 1, EntityEquipmentSlot.FEET);
 	
-	//Throwable
-	public static final Item HURRICANE = new ItemHurricane("hurricane");
 
 }

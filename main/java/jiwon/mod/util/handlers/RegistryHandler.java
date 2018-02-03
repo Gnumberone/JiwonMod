@@ -1,5 +1,6 @@
 package jiwon.mod.util.handlers;
 
+import jiwon.mod.init.EntityInit;
 import jiwon.mod.init.ItemInit;
 import jiwon.mod.util.IHasModel;
 import net.minecraft.item.Item;
@@ -24,5 +25,10 @@ public class RegistryHandler {
 			if(item instanceof IHasModel) {
 				((IHasModel)item).registerModels();
 			}
+	}
+	public static void preInitRegistries() {
+		EntityInit.registerEntites();
+		RenderHandler.registerEntityRenders();
+		
 	}
 }
